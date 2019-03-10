@@ -1,0 +1,619 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://datos.bcn.cl/esquemas/persona.schema.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "persona"
+  ],
+  "properties": {
+    "persona": {
+      "$id": "#/properties/persona",
+      "type": "object",
+      "title": "The Persona Schema",
+      "required": [
+        "identificacion",
+        "cargos",
+        "idPersona"
+      ],
+      "properties": {
+        "identificacion": {
+          "$id": "#/properties/persona/properties/identificacion",
+          "type": "object",
+          "title": "The Identificacion Schema",
+          "required": [
+            "nombre",
+            "nombres",
+            "apellido_paterno",
+            "nacimiento",
+            "partido_politico"
+          ],
+          "properties": {
+            "nombre": {
+              "$id": "#/properties/persona/properties/identificacion/properties/nombre",
+              "type": "string",
+              "title": "The Nombre Schema",
+              "default": "",
+              "examples": [
+                "María Isabel Allende Bussi"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "nombres": {
+              "$id": "#/properties/persona/properties/identificacion/properties/nombres",
+              "type": "string",
+              "title": "The Nombres Schema",
+              "default": "",
+              "examples": [
+                "María Isabel"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "apellido_paterno": {
+              "$id": "#/properties/persona/properties/identificacion/properties/apellido_paterno",
+              "type": "string",
+              "title": "The Apellido_paterno Schema",
+              "default": "",
+              "examples": [
+                "Allende"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "apellido_materno": {
+              "$id": "#/properties/persona/properties/identificacion/properties/apellido_materno",
+              "type": "string",
+              "title": "The Apellido_materno Schema",
+              "default": "",
+              "examples": [
+                "Bussi"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "genero": {
+              "$id": "#/properties/persona/properties/identificacion/properties/genero",
+              "type": "string",
+              "title": "The Genero Schema",
+              "default": "",
+              "examples": [
+                "femenino",
+                "masculino"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "nacimiento": {
+              "$id": "#/properties/persona/properties/identificacion/properties/nacimiento",
+              "type": "object",
+              "title": "The Nacimiento Schema",
+              "required": [
+                "ciudad",
+                "pais",
+                "fecha"
+              ],
+              "properties": {
+                "ciudad": {
+                  "$id": "#/properties/persona/properties/identificacion/properties/nacimiento/properties/ciudad",
+                  "type": "string",
+                  "title": "The Ciudad Schema",
+                  "default": "",
+                  "examples": [
+                    "Santiago"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "pais": {
+                  "$id": "#/properties/persona/properties/identificacion/properties/nacimiento/properties/pais",
+                  "type": "string",
+                  "title": "The Pais Schema",
+                  "default": "",
+                  "examples": [
+                    "Chile"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "fecha": {
+                  "$id": "#/properties/persona/properties/identificacion/properties/nacimiento/properties/fecha",
+                  "type": "string",
+                  "format": "date",
+                  "title": "The Fecha Schema",
+                  "default": "",
+                  "examples": [
+                    "1945-01-18"
+                  ]
+                }
+              }
+            },
+            "muerte": {
+              "$id": "#/properties/persona/properties/identificacion/properties/muerte",
+              "type": "object",
+              "title": "The Muerte Schema",
+              "required": [
+                "ciudad",
+                "pais",
+                "fecha"
+              ],
+              "properties": {
+                "ciudad": {
+                  "$id": "#/properties/persona/properties/identificacion/properties/muerte/properties/ciudad",
+                  "type": "string",
+                  "title": "The Ciudad Schema",
+                  "default": "",
+                  "examples": [
+                    "Santiago"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "pais": {
+                  "$id": "#/properties/persona/properties/identificacion/properties/muerte/properties/pais",
+                  "type": "string",
+                  "title": "The Pais Schema",
+                  "default": "",
+                  "examples": [
+                    "Chile"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "fecha": {
+                  "$id": "#/properties/persona/properties/identificacion/properties/muerte/properties/fecha",
+                  "type": "string",
+                  "format": "date",
+                  "title": "The Fecha Schema",
+                  "default": "",
+                  "examples": [
+                    "1945-01-18"
+                  ]
+                }
+              }
+            },
+            "partido_politico": {
+              "$id": "#/properties/persona/properties/identificacion/properties/partido_politico",
+              "type": "string",
+              "title": "The Partido_politico Schema",
+              "default": "",
+              "examples": [
+                "Partido Socialista de Chile"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "imagen": {
+              "$id": "#/properties/persona/properties/identificacion/properties/imagen",
+              "type": "string",
+			  "format": "uri",
+              "title": "The Imagen Schema",
+              "default": "",
+              "examples": [
+                "http://biografias.bcn.cl/images/d/df/Mar%C3%ADa_Isabel_Allende_Bussi.jpg"
+              ]
+            },
+            "uri": {
+              "$id": "#/properties/persona/properties/identificacion/properties/uri",
+              "type": "string",
+			  "format": "uri",
+              "title": "The URI Schema",
+              "default": "",
+              "examples": [
+                "http://datos.bcn.cl/recurso/persona/3494"
+              ]
+            }
+          }
+        },
+        "estudios": {
+          "$id": "#/properties/persona/properties/estudios",
+          "type": "object",
+          "title": "The Estudios Schema",
+          "properties": {
+            "pregrado": {
+              "$id": "#/properties/persona/properties/estudios/properties/pregrado",
+              "type": "object",
+              "title": "The Pregrado Schema",
+              "required": [
+                "carrera"
+              ],
+              "properties": {
+                "carrera": {
+                  "$id": "#/properties/persona/properties/estudios/properties/pregrado/properties/carrera",
+                  "type": "array",
+                  "title": "The Carrera Schema",
+                  "items": {
+                    "$id": "#/properties/persona/properties/estudios/properties/pregrado/properties/carrera/items",
+                    "type": "object",
+                    "title": "The Items Schema",
+                    "required": [
+                      "titulo",
+                      "institucion"
+                    ],
+                    "properties": {
+                      "titulo": {
+                        "$id": "#/properties/persona/properties/estudios/properties/pregrado/properties/carrera/items/properties/titulo",
+                        "type": "string",
+                        "title": "The Titulo Schema",
+                        "default": "",
+                        "examples": [
+                          "Socióloga"
+                        ],
+                        "pattern": "^(.*)$"
+                      },
+                      "institucion": {
+                        "$id": "#/properties/persona/properties/estudios/properties/pregrado/properties/carrera/items/properties/institucion",
+                        "type": "string",
+                        "title": "The Institucion Schema",
+                        "default": "",
+                        "examples": [
+                          "Universidad de Chile"
+                        ],
+                        "pattern": "^(.*)$"
+                      },
+                      "fecha_titulacion": {
+                        "$id": "#/properties/persona/properties/estudios/properties/pregrado/properties/carrera/items/properties/fecha_titulacion",
+                        "type": "string",
+                        "format": "date",
+                        "title": "The Fecha_titulacion Schema",
+                        "default": "",
+                        "examples": [
+                          "1979-01-20"
+                        ]
+                      },
+                      "ano_titulacion": {
+                        "$id": "#/properties/persona/properties/estudios/properties/pregrado/properties/carrera/items/properties/ano_titulacion",
+                        "type": "string",
+                        "title": "The Ano_titulacion Schema",
+                        "default": "",
+                        "examples": [
+                          "1979"
+                        ],
+                        "pattern": "^(.*)$"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "postgrado": {
+              "$id": "#/properties/persona/properties/estudios/properties/postgrado",
+              "type": "object",
+              "title": "The Postgrado Schema",
+              "required": [
+                "grado"
+              ],
+              "properties": {
+                "grado": {
+                  "$id": "#/properties/persona/properties/estudios/properties/postgrado/properties/grado",
+                  "type": "array",
+                  "title": "The Grado Schema",
+                  "items": {
+                    "$id": "#/properties/persona/properties/estudios/properties/postgrado/properties/grado/items",
+                    "type": "object",
+                    "title": "The Items Schema",
+                    "required": [
+                      "nombre",
+                      "institucion"
+                    ],
+                    "properties": {
+                      "nombre": {
+                        "$id": "#/properties/persona/properties/estudios/properties/postgrado/properties/grado/items/properties/nombre",
+                        "type": "string",
+                        "title": "The Nombre Schema",
+                        "default": "",
+                        "examples": [
+                          "Master en Sociología"
+                        ],
+                        "pattern": "^(.*)$"
+                      },
+                      "institucion": {
+                        "$id": "#/properties/persona/properties/estudios/properties/postgrado/properties/grado/items/properties/institucion",
+                        "type": "string",
+                        "title": "The Institucion Schema",
+                        "default": "",
+                        "examples": [
+                          "Universidad Nacional Autónoma de México (UNAM)"
+                        ],
+                        "pattern": "^(.*)$"
+                      },
+                      "fecha_titulacion": {
+                        "$id": "#/properties/persona/properties/estudios/properties/postgrado/properties/grado/items/properties/fecha_titulacion",
+                        "type": "string",
+                        "format": "date",
+                        "title": "The Fecha_titulacion Schema",
+                        "default": "",
+                        "examples": [
+                          "1979-01-20"
+                        ]
+                      },
+                      "ano_titulacion": {
+                        "$id": "#/properties/persona/properties/estudios/properties/postgrado/properties/grado/items/properties/ano_titulacion",
+                        "type": "string",
+                        "title": "The Ano_titulacion Schema",
+                        "default": "",
+                        "examples": [
+                          "1979"
+                        ],
+                        "pattern": "^(.*)$"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "familia": {
+          "$id": "#/properties/persona/properties/familia",
+          "type": "object",
+          "title": "The Familia Schema",
+          "required": [
+            "pariente"
+          ],
+          "properties": {
+            "pariente": {
+              "$id": "#/properties/persona/properties/familia/properties/pariente",
+              "type": "array",
+              "title": "The Pariente Schema",
+              "items": {
+                "$id": "#/properties/persona/properties/familia/properties/pariente/items",
+                "type": "object",
+                "title": "The Items Schema",
+                "required": [
+                  "relacion",
+                  "nombre",
+                  "nombre_relacion"
+                ],
+                "properties": {
+                  "relacion": {
+                    "$id": "#/properties/persona/properties/familia/properties/pariente/items/properties/relacion",
+                    "type": "string",
+                    "title": "The Relacion Schema",
+                    "default": "",
+                    "examples": [
+                      "hija_de"
+                    ],
+                    "pattern": "^(.*)$"
+                  },
+                  "nombre": {
+                    "$id": "#/properties/persona/properties/familia/properties/pariente/items/properties/nombre",
+                    "type": "string",
+                    "title": "The Nombre Schema",
+                    "default": "",
+                    "examples": [
+                      "Salvador Allende Gossens"
+                    ],
+                    "pattern": "^(.*)$"
+                  },
+                  "nombre_relacion": {
+                    "$id": "#/properties/persona/properties/familia/properties/pariente/items/properties/nombre_relacion",
+                    "type": "string",
+                    "title": "The Nombre_relacion Schema",
+                    "default": "",
+                    "examples": [
+                      "padre"
+                    ],
+                    "pattern": "^(.*)$"
+                  },
+                  "activa": {
+                    "$id": "#/properties/persona/properties/familia/properties/pariente/items/properties/activa",
+                    "type": "boolean",
+                    "title": "The Activa Schema",
+                    "default": true,
+                    "examples": [
+                      true, false
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "cargos": {
+          "$id": "#/properties/persona/properties/cargos",
+          "type": "object",
+          "title": "The Cargos Schema",
+          "required": [
+            "cargo"
+          ],
+          "properties": {
+            "cargo": {
+              "$id": "#/properties/persona/properties/cargos/properties/cargo",
+              "type": "array",
+              "title": "The Cargo Schema",
+              "items": {
+                "$id": "#/properties/persona/properties/cargos/properties/cargo/items",
+                "type": "object",
+                "title": "The Items Schema",
+                "required": [
+                  "nombre",
+                  "institucion",
+                  "fecha_inicio",
+                  "periodo",
+                  "representacion",
+                  "partido_politico"
+                ],
+                "properties": {
+                  "nombre": {
+                    "$id": "#/properties/persona/properties/cargos/properties/cargo/items/properties/nombre",
+                    "type": "string",
+                    "title": "The Nombre Schema",
+                    "default": "",
+                    "examples": [
+                      "Senadora"
+                    ],
+                    "pattern": "^(.*)$"
+                  },
+                  "institucion": {
+                    "$id": "#/properties/persona/properties/cargos/properties/cargo/items/properties/institucion",
+                    "type": "string",
+                    "title": "The Institucion Schema",
+                    "default": "",
+                    "examples": [
+                      "Senado"
+                    ],
+                    "pattern": "^(.*)$"
+                  },
+                  "fecha_inicio": {
+                    "$id": "#/properties/persona/properties/cargos/properties/cargo/items/properties/fecha_inicio",
+                    "type": "string",
+                    "format": "date",
+                    "title": "The Fecha_inicio Schema",
+                    "default": "",
+                    "examples": [
+                      "2018-03-11"
+                    ]
+                  },
+                  "periodo": {
+                    "$id": "#/properties/persona/properties/cargos/properties/cargo/items/properties/periodo",
+                    "type": "string",
+                    "title": "The Periodo Schema",
+                    "default": "",
+                    "examples": [
+                      "2018-2026"
+                    ],
+                    "pattern": "^(.*)$"
+                  },
+                  "representacion": {
+                    "$id": "#/properties/persona/properties/cargos/properties/cargo/items/properties/representacion",
+                    "type": "string",
+                    "title": "The Representacion Schema",
+                    "default": "",
+                    "examples": [
+                      "6ta Circunscripción de Valparaíso"
+                    ],
+                    "pattern": "^(.*)$"
+                  },
+                  "partido_politico": {
+                    "$id": "#/properties/persona/properties/cargos/properties/cargo/items/properties/partido_politico",
+                    "type": "string",
+                    "title": "The Partido_politico Schema",
+                    "default": "",
+                    "examples": [
+                      "Partido Socialista de Chile"
+                    ],
+                    "pattern": "^(.*)$"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "comisiones": {
+          "$id": "#/properties/persona/properties/comisiones",
+          "type": "object",
+          "title": "The Comisiones Schema",
+          "required": [
+            "comision"
+          ],
+          "properties": {
+            "comision": {
+              "$id": "#/properties/persona/properties/comisiones/properties/comision",
+              "type": "array",
+              "title": "The Comision Schema",
+              "items": {
+                "$id": "#/properties/persona/properties/comisiones/properties/comision/items",
+                "type": "object",
+                "title": "The Items Schema",
+                "required": [
+                  "nombre",
+                  "tipo_comision",
+                  "institucion",
+                  "rol",
+                  "periodo",
+                  "fecha_inicio",
+                  "fecha_fin"
+                ],
+                "properties": {
+                  "nombre": {
+                    "$id": "#/properties/persona/properties/comisiones/properties/comision/items/properties/nombre",
+                    "type": "string",
+                    "title": "The Nombre Schema",
+                    "default": "",
+                    "examples": [
+                      "Medio Ambiente y Bienes Nacionales"
+                    ],
+                    "pattern": "^(.*)$"
+                  },
+                  "tipo_comision": {
+                    "$id": "#/properties/persona/properties/comisiones/properties/comision/items/properties/tipo_comision",
+                    "type": "string",
+                    "enum": ["Especial","Investigadora","Mixta","Permanente"],
+                    "title": "The Tipo_comision Schema",
+                    "default": "",
+                    "examples": [
+                      "Permanente"
+                    ]
+                  },
+                  "institucion": {
+                    "$id": "#/properties/persona/properties/comisiones/properties/comision/items/properties/institucion",
+                    "type": "string",
+                    "title": "The Institucion Schema",
+                    "default": "",
+                    "examples": [
+                      "Senado"
+                    ],
+                    "pattern": "^(.*)$"
+                  },
+                  "rol": {
+                    "$id": "#/properties/persona/properties/comisiones/properties/comision/items/properties/rol",
+                    "type": "string",
+                    "title": "The Rol Schema",
+                    "default": "",
+                    "examples": [
+                      "presidente"
+                    ],
+                    "pattern": "^(.*)$"
+                  },
+                  "periodo": {
+                    "$id": "#/properties/persona/properties/comisiones/properties/comision/items/properties/periodo",
+                    "type": "string",
+                    "title": "The Periodo Schema",
+                    "default": "",
+                    "examples": [
+                      "2018-2026"
+                    ],
+                    "pattern": "^(.*)$"
+                  },
+                  "fecha_inicio": {
+                    "$id": "#/properties/persona/properties/comisiones/properties/comision/items/properties/fecha_inicio",
+                    "type": "string",
+                    "format": "date",
+                    "title": "The Fecha_inicio Schema",
+                    "default": "",
+                    "examples": [
+                      "2018-03-11"
+                    ]
+                  },
+                  "fecha_fin": {
+                    "$id": "#/properties/persona/properties/comisiones/properties/comision/items/properties/fecha_fin",
+                    "type": "string",
+                    "format": "date",
+                    "title": "The Fecha_fin Schema",
+                    "default": "",
+                    "examples": [
+                      "2022-03-10"
+                    ]
+                  },
+				  "uri": {
+					"$id": "#/properties/persona/properties/comisiones/properties/comision/items/properties/uri",
+					"type": "string",
+					"format": "uri",
+					"title": "The URI Schema",
+					"default": "",
+					"examples": [
+					  "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=1126&tipo_comision=10"
+					]
+				  }
+                }
+              }
+            }
+          }
+        },
+        "idPersona": {
+          "$id": "#/properties/persona/properties/idPersona",
+          "type": "string",
+          "title": "The Idpersona Schema",
+          "default": "",
+          "examples": [
+            "3494"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    }
+  }
+}

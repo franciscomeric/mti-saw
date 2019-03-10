@@ -1,0 +1,11 @@
+{
+  "nombre": "Isabel",
+  "apellido": "Allende",
+  "partido": "PS",
+  "fechaNacimiento": {
+    "dia": 18,
+    "mes": "enero",
+    "annio": 1945
+  },
+  "regionRepresenta": "Valparaiso"
+}

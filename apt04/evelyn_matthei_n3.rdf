@@ -1,0 +1,305 @@
+@prefix bcnbio: <http://datos.bcn.cl/ontologies/bcn-biographies#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://datos.bcn.cl/recurso/persona/53> a schema:Person,
+        foaf:Person ;
+    bcnbio:PoliticalParty "Partido Unión Demócrata Independiente" ;
+    bcnbio:surnameOfFather "Matthei" ;
+    bcnbio:surnameOfMather "Fornet" ;
+    schema:OrganizationRole <http://datos.bcn.cl/recurso/persona/53/cargo/1>,
+        <http://datos.bcn.cl/recurso/persona/53/cargo/2>,
+        <http://datos.bcn.cl/recurso/persona/53/cargo/3>,
+        <http://datos.bcn.cl/recurso/persona/53/cargo/4>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/1>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/10>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/11>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/12>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/13>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/14>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/15>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/16>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/17>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/18>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/19>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/2>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/20>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/21>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/22>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/3>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/4>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/5>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/6>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/7>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/8>,
+        <http://datos.bcn.cl/recurso/persona/53/cargoComision/9> ;
+    schema:birthDate "1953-11-11"^^xsd:date ;
+    schema:birthPlace "Santiago Chile, Chile" ;
+    schema:children "Antonia",
+        "Jorge",
+        "Roberto" ;
+    schema:gender "femenino" ;
+    schema:hasOccupation "Licenciada en Ciencias Económicas" ;
+    schema:parent "Fernando, Matthei Aubel" ;
+    foaf:depiction <http://biografias.bcn.cl/images/b/b0/Evelyn_Matthei_Fornet.jpg> ;
+    foaf:givenName "Evelyn" ;
+    foaf:name "Evelyn Matthei Fornet" .
+
+<http://datos.bcn.cl/recurso/persona/53/cargo/1> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "1990-1994" ;
+    bcnbio:ofNamedPoliticalParty "Partido Renovación Nacional" ;
+    bcnbio:representing "Distrito Nº 23 de Región Metropolitana" ;
+    schema:Organization "Cámara" ;
+    schema:endDate "1994-03-10"^^xsd:date ;
+    schema:roleName "Diputada" ;
+    schema:startDate "1990-03-11"^^xsd:date .
+
+<http://datos.bcn.cl/recurso/persona/53/cargo/2> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "1994-1998" ;
+    bcnbio:ofNamedPoliticalParty "Independiente" ;
+    bcnbio:representing "Distrito Nº 15 de Región Valparaíso" ;
+    schema:Organization "Cámara" ;
+    schema:endDate "1998-03-10"^^xsd:date ;
+    schema:roleName "Diputada" ;
+    schema:startDate "1994-03-11"^^xsd:date .
+
+<http://datos.bcn.cl/recurso/persona/53/cargo/3> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "1998-2006" ;
+    bcnbio:ofNamedPoliticalParty "Independiente" ;
+    bcnbio:representing "4ta Circunscripción de Coquimbo" ;
+    schema:Organization "Senado" ;
+    schema:endDate "2006-03-10"^^xsd:date ;
+    schema:roleName "Senadora" ;
+    schema:startDate "1998-03-11"^^xsd:date .
+
+<http://datos.bcn.cl/recurso/persona/53/cargo/4> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2006-2011" ;
+    bcnbio:ofNamedPoliticalParty "Partido Unión Demócrata Independiente" ;
+    bcnbio:representing "4ta Circunscripción de Coquimbo" ;
+    schema:Organization "Senado" ;
+    schema:endDate "2011-01-16"^^xsd:date ;
+    schema:roleName "Senadora" ;
+    schema:startDate "2006-03-11"^^xsd:date .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/1> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "1990-1994" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Especial" ;
+    schema:endDate "1994-03-10"^^xsd:date ;
+    schema:name "Estudio del Régimen Político Chileno" ;
+    schema:roleName "miembro" ;
+    schema:startDate "1990-03-11"^^xsd:date .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/10> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "1998-2006" ;
+    schema:Organization "Senado" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "2006-03-10"^^xsd:date ;
+    schema:name "Salud" ;
+    schema:roleName "miembro" ;
+    schema:startDate "1998-03-11"^^xsd:date ;
+    schema:url <http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=195&tipo_comision=10> .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/11> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "1998-2006" ;
+    schema:Organization "Senado" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "2006-03-10"^^xsd:date ;
+    schema:name "Hacienda" ;
+    schema:roleName "miembro" ;
+    schema:startDate "1998-03-11"^^xsd:date ;
+    schema:url <http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=188&tipo_comision=10> .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/12> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "1998-2006" ;
+    schema:Organization "Senado" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "2006-03-10"^^xsd:date ;
+    schema:name "Minería y Energía" ;
+    schema:roleName "miembro" ;
+    schema:startDate "1998-03-11"^^xsd:date ;
+    schema:url <http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=196&tipo_comision=10> .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/13> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "1998-2006" ;
+    schema:Organization "Senado" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "2006-03-10"^^xsd:date ;
+    schema:name "Revisora de Cuentas" ;
+    schema:roleName "presidente" ;
+    schema:startDate "1998-03-11"^^xsd:date ;
+    schema:url <http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=202&tipo_comision=10> .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/14> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2006-2014" ;
+    schema:Organization "Senado" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "2011-01-30"^^xsd:date ;
+    schema:name "Hacienda" ;
+    schema:roleName "presidente" ;
+    schema:startDate "2006-03-11"^^xsd:date ;
+    schema:url <http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=188&tipo_comision=10> .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/15> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2006-2014" ;
+    schema:Organization "Senado" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "2011-01-30"^^xsd:date ;
+    schema:name "Hacienda" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2006-03-11"^^xsd:date ;
+    schema:url <http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=188&tipo_comision=10> .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/16> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2006-2014" ;
+    schema:Organization "Senado" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "2011-01-30"^^xsd:date ;
+    schema:name "Salud" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2006-03-11"^^xsd:date ;
+    schema:url <http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=195&tipo_comision=10> .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/17> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2006-2014" ;
+    schema:Organization "Senado" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "2011-01-30"^^xsd:date ;
+    schema:name "Revisora de Cuentas" ;
+    schema:roleName "presidente" ;
+    schema:startDate "2006-03-11"^^xsd:date ;
+    schema:url <http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=202&tipo_comision=10> .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/18> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2006-2014" ;
+    schema:Organization "Senado" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "2011-01-30"^^xsd:date ;
+    schema:name "Trabajo y Previsión Social" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2006-03-11"^^xsd:date ;
+    schema:url <http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=194&tipo_comision=10> .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/19> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2006-2014" ;
+    schema:Organization "Senado" ;
+    schema:additionalType "Comisión Mixta" ;
+    schema:endDate "2011-01-30"^^xsd:date ;
+    schema:name "Mixta de Presupuestos" ;
+    schema:roleName "presidente" ;
+    schema:startDate "2006-03-11"^^xsd:date ;
+    schema:url <http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=367&tipo_comision=10> .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/2> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "1990-1994" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "1994-03-10"^^xsd:date ;
+    schema:name "Trabajo y Seguridad Social" ;
+    schema:roleName "miembro" ;
+    schema:startDate "1990-03-11"^^xsd:date ;
+    schema:url <https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=408> .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/20> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2006-2014" ;
+    schema:Organization "Senado" ;
+    schema:additionalType "Comisión Mixta" ;
+    schema:endDate "2011-01-30"^^xsd:date ;
+    schema:name "Mixta de Presupuestos" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2006-03-11"^^xsd:date ;
+    schema:url <http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=367&tipo_comision=10> .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/21> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2006-2014" ;
+    schema:Organization "Senado" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "2011-01-30"^^xsd:date ;
+    schema:name "Transportes y Telecomunicaciones" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2006-03-11"^^xsd:date ;
+    schema:url <http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=198&tipo_comision=10> .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/22> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2006-2014" ;
+    schema:Organization "Senado" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "2011-01-30"^^xsd:date ;
+    schema:name "Economía" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2006-03-11"^^xsd:date ;
+    schema:url <http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=187&tipo_comision=10> .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/3> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "1990-1994" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "1994-03-10"^^xsd:date ;
+    schema:name "Hacienda" ;
+    schema:roleName "miembro" ;
+    schema:startDate "1990-03-11"^^xsd:date ;
+    schema:url <https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=407> .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/4> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "1994-1998" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "1998-03-10"^^xsd:date ;
+    schema:name "Hacienda" ;
+    schema:roleName "reemplazante" ;
+    schema:startDate "1994-03-11"^^xsd:date ;
+    schema:url <https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=407> .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/5> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "1994-1998" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "1998-03-10"^^xsd:date ;
+    schema:name "Relaciones Exteriores, Asuntos Interparlamentarios e Integración Latinoamericana" ;
+    schema:roleName "miembro" ;
+    schema:startDate "1994-03-11"^^xsd:date ;
+    schema:url <https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=406> .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/6> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "1994-1998" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "1998-03-10"^^xsd:date ;
+    schema:name "Ciencias y Tecnología" ;
+    schema:roleName "miembro" ;
+    schema:startDate "1994-03-11"^^xsd:date ;
+    schema:url <https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=403> .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/7> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "1994-1998" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "1998-03-10"^^xsd:date ;
+    schema:name "Economía, Fomento y Desarrollo" ;
+    schema:roleName "miembro" ;
+    schema:startDate "1994-03-11"^^xsd:date ;
+    schema:url <https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=410> .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/8> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "1994-1998" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "1998-03-10"^^xsd:date ;
+    schema:name "Trabajo y Seguridad Social" ;
+    schema:roleName "miembro" ;
+    schema:startDate "1994-03-11"^^xsd:date ;
+    schema:url <https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=408> .
+
+<http://datos.bcn.cl/recurso/persona/53/cargoComision/9> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "1998-2006" ;
+    schema:Organization "Senado" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "2006-03-10"^^xsd:date ;
+    schema:name "Economía" ;
+    schema:roleName "miembro" ;
+    schema:startDate "1998-03-11"^^xsd:date ;
+    schema:url <http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=187&tipo_comision=10> .

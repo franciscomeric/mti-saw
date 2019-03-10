@@ -1,0 +1,221 @@
+@prefix bcnbio: <http://datos.bcn.cl/ontologies/bcn-biographies#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://datos.bcn.cl/recurso/persona/2200> a schema:Person,
+        foaf:Person ;
+    bcnbio:PoliticalParty "Partido por la Democracia" ;
+    bcnbio:surnameOfFather "Accorsi" ;
+    bcnbio:surnameOfMather "Opazo" ;
+    schema:OrganizationRole <http://datos.bcn.cl/recurso/persona/2200/cargo/1>,
+        <http://datos.bcn.cl/recurso/persona/2200/cargo/2>,
+        <http://datos.bcn.cl/recurso/persona/2200/cargo/3>,
+        <http://datos.bcn.cl/recurso/persona/2200/cargoComision/1>,
+        <http://datos.bcn.cl/recurso/persona/2200/cargoComision/10>,
+        <http://datos.bcn.cl/recurso/persona/2200/cargoComision/11>,
+        <http://datos.bcn.cl/recurso/persona/2200/cargoComision/12>,
+        <http://datos.bcn.cl/recurso/persona/2200/cargoComision/13>,
+        <http://datos.bcn.cl/recurso/persona/2200/cargoComision/14>,
+        <http://datos.bcn.cl/recurso/persona/2200/cargoComision/15>,
+        <http://datos.bcn.cl/recurso/persona/2200/cargoComision/16>,
+        <http://datos.bcn.cl/recurso/persona/2200/cargoComision/2>,
+        <http://datos.bcn.cl/recurso/persona/2200/cargoComision/3>,
+        <http://datos.bcn.cl/recurso/persona/2200/cargoComision/4>,
+        <http://datos.bcn.cl/recurso/persona/2200/cargoComision/5>,
+        <http://datos.bcn.cl/recurso/persona/2200/cargoComision/6>,
+        <http://datos.bcn.cl/recurso/persona/2200/cargoComision/7>,
+        <http://datos.bcn.cl/recurso/persona/2200/cargoComision/8>,
+        <http://datos.bcn.cl/recurso/persona/2200/cargoComision/9> ;
+    schema:birthDate "1948-08-17"^^xsd:date ;
+    schema:birthPlace "Santiago, Chile" ;
+    schema:gender "masculino" ;
+    schema:hasOccupation "Médico" ;
+    foaf:depiction <http://biografias.bcn.cl/images/a/a4/Enrique_Accorsi_Opazo.jpg> ;
+    foaf:givenName "Enrique" ;
+    foaf:name "Enrique Accorsi Opazo" .
+
+<http://datos.bcn.cl/recurso/persona/2200/cargo/1> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2002-2006" ;
+    bcnbio:ofNamedPoliticalParty "Partido por la Democracia" ;
+    bcnbio:representing "Distrito Nº 24 de Región Metropolitana" ;
+    schema:Organization "Cámara" ;
+    schema:endDate "2006-03-10"^^xsd:date ;
+    schema:roleName "Diputado" ;
+    schema:startDate "2002-03-11"^^xsd:date .
+
+<http://datos.bcn.cl/recurso/persona/2200/cargo/2> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2006-2010" ;
+    bcnbio:ofNamedPoliticalParty "Partido por la Democracia" ;
+    bcnbio:representing "Distrito Nº 24 de Región Metropolitana" ;
+    schema:Organization "Cámara" ;
+    schema:endDate "2010-03-10"^^xsd:date ;
+    schema:roleName "Diputado" ;
+    schema:startDate "2006-03-11"^^xsd:date .
+
+<http://datos.bcn.cl/recurso/persona/2200/cargo/3> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2010-2014" ;
+    bcnbio:ofNamedPoliticalParty "Partido por la Democracia" ;
+    bcnbio:representing "Distrito Nº 24 de Región Metropolitana" ;
+    schema:Organization "Cámara" ;
+    schema:endDate "2014-03-10"^^xsd:date ;
+    schema:roleName "Diputado" ;
+    schema:startDate "2010-03-11"^^xsd:date .
+
+<http://datos.bcn.cl/recurso/persona/2200/cargoComision/1> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2002-2006" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "2006-03-10"^^xsd:date ;
+    schema:name "Salud" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2002-03-11"^^xsd:date ;
+    schema:url <https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=411> .
+
+<http://datos.bcn.cl/recurso/persona/2200/cargoComision/10> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2006-2010" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Especial" ;
+    schema:endDate "2010-03-10"^^xsd:date ;
+    schema:name "Estudio del Régimen Político Chileno" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2006-03-11"^^xsd:date .
+
+<http://datos.bcn.cl/recurso/persona/2200/cargoComision/11> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2006-2010" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Especial" ;
+    schema:endDate "2010-03-10"^^xsd:date ;
+    schema:name "Beneficios para los Discapacitados" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2006-03-11"^^xsd:date .
+
+<http://datos.bcn.cl/recurso/persona/2200/cargoComision/12> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2006-2010" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Investigadora" ;
+    schema:endDate "2010-03-10"^^xsd:date ;
+    schema:name "Contaminación por Plomo en Arica" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2006-03-11"^^xsd:date .
+
+<http://datos.bcn.cl/recurso/persona/2200/cargoComision/13> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2006-2010" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "2010-03-10"^^xsd:date ;
+    schema:name "Recursos Naturales, Bienes Nacionales y Medio Ambiente" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2006-03-11"^^xsd:date ;
+    schema:url <https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=405> .
+
+<http://datos.bcn.cl/recurso/persona/2200/cargoComision/14> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2010-2014" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "2014-03-10"^^xsd:date ;
+    schema:name "Recursos Naturales, Bienes Nacionales y Medio Ambiente" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2010-03-11"^^xsd:date ;
+    schema:url <https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=405> .
+
+<http://datos.bcn.cl/recurso/persona/2200/cargoComision/15> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2010-2014" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Especial" ;
+    schema:endDate "2014-03-10"^^xsd:date ;
+    schema:name "Deportes" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2010-03-11"^^xsd:date ;
+    schema:url <https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=789> .
+
+<http://datos.bcn.cl/recurso/persona/2200/cargoComision/16> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2010-2014" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "2014-03-10"^^xsd:date ;
+    schema:name "Salud" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2010-03-11"^^xsd:date ;
+    schema:url <https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=411> .
+
+<http://datos.bcn.cl/recurso/persona/2200/cargoComision/2> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2002-2006" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Investigadora" ;
+    schema:endDate "2006-03-10"^^xsd:date ;
+    schema:name "Contaminación por Plomo en Arica" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2002-03-11"^^xsd:date .
+
+<http://datos.bcn.cl/recurso/persona/2200/cargoComision/3> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2002-2006" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "2006-03-10"^^xsd:date ;
+    schema:name "Derechos Humanos, Nacionalidad y Ciudadanía" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2002-03-11"^^xsd:date ;
+    schema:url <https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=404> .
+
+<http://datos.bcn.cl/recurso/persona/2200/cargoComision/4> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2002-2006" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Especial" ;
+    schema:endDate "2006-03-10"^^xsd:date ;
+    schema:name "Beneficios para los Discapacitados" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2002-03-11"^^xsd:date .
+
+<http://datos.bcn.cl/recurso/persona/2200/cargoComision/5> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2006-2010" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "2010-03-10"^^xsd:date ;
+    schema:name "Relaciones Exteriores, Asuntos Interparlamentarios e Integración Latinoamericana" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2006-03-11"^^xsd:date ;
+    schema:url <https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=406> .
+
+<http://datos.bcn.cl/recurso/persona/2200/cargoComision/6> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2006-2010" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "2010-03-10"^^xsd:date ;
+    schema:name "Superación de la Pobreza, Planificación y Desarrollo Social" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2006-03-11"^^xsd:date ;
+    schema:url <https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=553> .
+
+<http://datos.bcn.cl/recurso/persona/2200/cargoComision/7> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2006-2010" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "2010-03-10"^^xsd:date ;
+    schema:name "Conducta Parlamentaria" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2006-03-11"^^xsd:date ;
+    schema:url <https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=544> .
+
+<http://datos.bcn.cl/recurso/persona/2200/cargoComision/8> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2006-2010" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Especial" ;
+    schema:endDate "2010-03-10"^^xsd:date ;
+    schema:name "Deportes" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2006-03-11"^^xsd:date ;
+    schema:url <https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=789> .
+
+<http://datos.bcn.cl/recurso/persona/2200/cargoComision/9> a schema:OrganizationRole ;
+    bcnbio:ParliamentaryPeriod "2006-2010" ;
+    schema:Organization "Cámara" ;
+    schema:additionalType "Comisión Permanente" ;
+    schema:endDate "2010-03-10"^^xsd:date ;
+    schema:name "Derechos Humanos, Nacionalidad y Ciudadanía" ;
+    schema:roleName "miembro" ;
+    schema:startDate "2006-03-11"^^xsd:date ;
+    schema:url <https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=404> .

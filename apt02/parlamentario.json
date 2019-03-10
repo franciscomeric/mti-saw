@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://datos.bcn.cl/esquemas/persona.schema.json",
+  "title": "Esquema json de parlamentarios",
+  "description": "Esquema json de parlamentarios para validación",
+  "type": "object"
+  "properties": {
+    "idPersona": {
+      "description": "Identificador numérico único para persona",
+      "type": "integer"
+    }
+  },
+  "required": [ "idPersona" ]
+}

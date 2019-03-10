@@ -1,0 +1,328 @@
+{
+   "persona": {
+      "identificacion": {
+         "nombre": "Evelyn Matthei Fornet",
+         "nombres": "Evelyn",
+         "apellido_paterno": "Matthei",
+         "apellido_materno": "Fornet",
+         "genero": "femenino",
+         "nacimiento": {
+            "ciudad": "Santiago",
+            "pais": "Chile",
+            "fecha": "1953-11-11"
+         },
+         "partido_politico": "Unión Demócrata Independiente",
+         "imagen": "http://biografias.bcn.cl/images/b/b0/Evelyn_Matthei_Fornet.jpg",
+         "uri": "http://datos.bcn.cl/recurso/persona/53"
+      },
+      "estudios": {
+         "pregrado": {
+            "carrera": [
+               {
+                  "titulo": "Licenciada en Economía",
+                  "institucion": "Universidad Católica de Chile",
+                  "ano_titulacion": "1979"
+               }
+            ]
+         }
+      },
+      "familia": {
+         "pariente": [
+            {
+               "relacion": "hija_de",
+               "nombre": "Fernando Matthei Aubel",
+               "nombre_relacion": "padre"
+            },
+            {
+               "relacion": "hija_de",
+               "nombre": "Elda Fornet Fernández",
+               "nombre_relacion": "madre"
+            },
+            {
+               "relacion": "madre_de",
+               "nombre": "Jorge Desormeaux Matthei",
+               "nombre_relacion": "hijo"
+            },
+            {
+               "relacion": "madre_de",
+               "nombre": "Roberto Desormeaux Matthei",
+               "nombre_relacion": "hijo"
+            },
+            {
+               "relacion": "madre_de",
+               "nombre": "Antonia Desormeaux Matthei",
+               "nombre_relacion": "hija"
+            },
+            {
+               "relacion": "esposa_de",
+               "nombre": "Jorge Desormeaux Jiménez",
+               "nombre_relacion": "esposo"
+            }
+         ]
+      },
+      "cargos": {
+         "cargo": [
+            {
+               "nombre": "Senadora",
+               "institucion": "Senado",
+               "fecha_inicio": "2006-03-11",
+               "fecha_fin": "2011-01-16",
+               "periodo": "2006- 2014",
+               "representacion": "4ta Circunscripción de Coquimbo",
+               "partido_politico": "Unión Demócrata Independiente"
+            },
+            {
+               "nombre": "Senadora",
+               "institucion": "Senado",
+               "fecha_inicio": "1998-03-11",
+               "fecha_fin": "2006-03-10",
+               "periodo": "1998-2006",
+               "representacion": "4ta Circunscripción de Coquimbo",
+               "partido_politico": "Independiente"
+            },
+            {
+               "nombre": "Diputada",
+               "institucion": "Cámara",
+               "fecha_inicio": "1994-03-11",
+               "fecha_fin": "1998-03-10",
+               "periodo": "1994-1998",
+               "representacion": "Distrito Nº 15 de Región Valparaíso",
+               "partido_politico": "Independiente"
+            },
+            {
+               "nombre": "Diputada",
+               "institucion": "Cámara",
+               "fecha_inicio": "1990-03-11",
+               "fecha_fin": "1994-03-10",
+               "periodo": "1994-1998",
+               "representacion": "Distrito Nº 23 de Región Metropolitana",
+               "partido_politico": "Renovación Nacional"
+            }
+         ]
+      },
+      "comisiones": {
+         "comision": [
+            {
+               "nombre": "Economía",
+               "tipo_comision": "Permanente",
+               "institucion": "Senado",
+               "rol": "miembro",
+               "periodo": "2006-2014",
+               "fecha_inicio": "2006-03-11",
+               "fecha_fin": "2011-01-30",
+               "uri": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=187&tipo_comision=10"
+            },
+            {
+               "nombre": "Salud",
+               "tipo_comision": "Permanente",
+               "institucion": "Senado",
+               "rol": "miembro",
+               "periodo": "2006-2014",
+               "fecha_inicio": "2006-03-11",
+               "fecha_fin": "2011-01-30",
+               "uri": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=195&tipo_comision=10"
+            },
+            {
+               "nombre": "Transportes y Telecomunicaciones",
+               "tipo_comision": "Permanente",
+               "institucion": "Senado",
+               "rol": "miembro",
+               "periodo": "2006-2014",
+               "fecha_inicio": "2006-03-11",
+               "fecha_fin": "2011-01-30",
+               "uri": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=198&tipo_comision=10"
+            },
+            {
+               "nombre": "Hacienda",
+               "tipo_comision": "Permanente",
+               "institucion": "Senado",
+               "rol": "presidente",
+               "periodo": "2006-2014",
+               "fecha_inicio": "2006-03-11",
+               "fecha_fin": "2011-01-30",
+               "uri": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=188&tipo_comision=10"
+            },
+            {
+               "nombre": "Revisora de Cuentas",
+               "tipo_comision": "Permanente",
+               "institucion": "Senado",
+               "rol": "presidente",
+               "periodo": "2006-2014",
+               "fecha_inicio": "2006-03-11",
+               "fecha_fin": "2011-01-30",
+               "uri": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=202&tipo_comision=10"
+            },
+            {
+               "nombre": "Mixta de Presupuestos",
+               "tipo_comision": "Mixta",
+               "institucion": "Senado",
+               "rol": "presidente",
+               "periodo": "2006-2014",
+               "fecha_inicio": "2006-03-11",
+               "fecha_fin": "2011-01-30",
+               "uri": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=367&tipo_comision=10"
+            },
+            {
+               "nombre": "Hacienda",
+               "tipo_comision": "Permanente",
+               "institucion": "Senado",
+               "rol": "miembro",
+               "periodo": "2006-2014",
+               "fecha_inicio": "2006-03-11",
+               "fecha_fin": "2011-01-30",
+               "uri": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=188&tipo_comision=10"
+            },
+            {
+               "nombre": "Trabajo y Previsión Social",
+               "tipo_comision": "Permanente",
+               "institucion": "Senado",
+               "rol": "miembro",
+               "periodo": "2006-2014",
+               "fecha_inicio": "2006-03-11",
+               "fecha_fin": "2011-01-30",
+               "uri": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=194&tipo_comision=10"
+            },
+            {
+               "nombre": "Mixta de Presupuestos",
+               "tipo_comision": "Mixta",
+               "institucion": "Senado",
+               "rol": "miembro",
+               "periodo": "2006-2014",
+               "fecha_inicio": "2006-03-11",
+               "fecha_fin": "2011-01-30",
+               "uri": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=367&tipo_comision=10"
+            },
+            {
+               "nombre": "Economía",
+               "tipo_comision": "Permanente",
+               "institucion": "Senado",
+               "rol": "miembro",
+               "periodo": "1998-2006",
+               "fecha_inicio": "1998-03-11",
+               "fecha_fin": "2006-03-10",
+               "uri": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=187&tipo_comision=10"
+            },
+            {
+               "nombre": "Minería y Energía",
+               "tipo_comision": "Permanente",
+               "institucion": "Senado",
+               "rol": "miembro",
+               "periodo": "1998-2006",
+               "fecha_inicio": "1998-03-11",
+               "fecha_fin": "2006-03-10",
+               "uri": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=196&tipo_comision=10"
+            },
+            {
+               "nombre": "Salud",
+               "tipo_comision": "Permanente",
+               "institucion": "Senado",
+               "rol": "miembro",
+               "periodo": "1998-2006",
+               "fecha_inicio": "1998-03-11",
+               "fecha_fin": "2006-03-10",
+               "uri": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=195&tipo_comision=10"
+            },
+            {
+               "nombre": "Hacienda",
+               "tipo_comision": "Permanente",
+               "institucion": "Senado",
+               "rol": "miembro",
+               "periodo": "1998-2006",
+               "fecha_inicio": "1998-03-11",
+               "fecha_fin": "2006-03-10",
+               "uri": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=188&tipo_comision=10"
+            },
+            {
+               "nombre": "Revisora de Cuentas",
+               "tipo_comision": "Permanente",
+               "institucion": "Senado",
+               "rol": "presidente",
+               "periodo": "1998-2006",
+               "fecha_inicio": "1998-03-11",
+               "fecha_fin": "2006-03-10",
+               "uri": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=202&tipo_comision=10"
+            },
+            {
+               "nombre": "Trabajo y Seguridad Social",
+               "tipo_comision": "Permanente",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "1994-1998",
+               "fecha_inicio": "1994-03-11",
+               "fecha_fin": "1998-03-10",
+               "uri": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=408"
+            },
+            {
+               "nombre": "Economía, Fomento y Desarrollo",
+               "tipo_comision": "Permanente",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "1994-1998",
+               "fecha_inicio": "1994-03-11",
+               "fecha_fin": "1998-03-10",
+               "uri": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=410"
+            },
+            {
+               "nombre": "Ciencias y Tecnología",
+               "tipo_comision": "Permanente",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "1994-1998",
+               "fecha_inicio": "1994-03-11",
+               "fecha_fin": "1998-03-10",
+               "uri": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=403"
+            },
+            {
+               "nombre": "Relaciones Exteriores, Integración Latinoamericana y Asuntos Interparlamentarios",
+               "tipo_comision": "Permanente",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "1994-1998",
+               "fecha_inicio": "1994-03-11",
+               "fecha_fin": "1998-03-10",
+               "uri": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=406"
+            },
+            {
+               "nombre": "Hacienda",
+               "tipo_comision": "Permanente",
+               "institucion": "Cámara",
+               "rol": "reemplazante",
+               "periodo": "1994-1998",
+               "fecha_inicio": "1994-03-11",
+               "fecha_fin": "1998-03-10",
+               "uri": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=407"
+            },
+            {
+               "nombre": "Hacienda",
+               "tipo_comision": "Permanente",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "1990-1994",
+               "fecha_inicio": "1990-03-11",
+               "fecha_fin": "1994-03-10",
+               "uri": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=407"
+            },
+            {
+               "nombre": "Trabajo y Seguridad Social",
+               "tipo_comision": "Permanente",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "1990-1994",
+               "fecha_inicio": "1990-03-11",
+               "fecha_fin": "1994-03-10",
+               "uri": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=408"
+            },
+            {
+               "nombre": "Régimen Político Chileno",
+               "tipo_comision": "Especial",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "1990-1994",
+               "fecha_inicio": "1990-03-11",
+               "fecha_fin": "1994-03-10"
+            }
+         ]
+      },
+      "idPersona": "53"
+   }
+}

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<!-- definición de elementos simples -->
+	<xs:element name="nombre" type="xs:string"/>
+	<xs:element name="nombres" type="xs:string"/>
+	<xs:element name="apellido_paterno" type="xs:string"/>
+	<xs:element name="apellido_materno" type="xs:string"/>
+	<xs:element name="genero" type="xs:string"/>
+	<xs:element name="ciudad" type="xs:string"/>
+	<xs:element name="pais" type="xs:string"/>
+	<xs:element name="fecha" type="xs:date"/>
+	<xs:element name="partido_politico" type="xs:string"/>
+	<xs:element name="titulo" type="xs:string"/>
+	<xs:element name="institucion" type="xs:string"/>
+	<xs:element name="relacion" type="xs:string"/>
+	<xs:element name="nombre_relacion" type="xs:string"/>
+	<xs:element name="activa" type="xs:boolean"/>
+	<xs:element name="fecha_inicio" type="xs:date"/>
+	<xs:element name="fecha_fin" type="xs:date"/>
+	<xs:element name="fecha_titulacion" type="xs:date"/>
+	<xs:element name="periodo" type="xs:string"/>
+	<xs:element name="representacion" type="xs:string"/>
+	<xs:element name="tipo_comision" type="tipoComision"/>
+	<xs:element name="rol" type="xs:string"/>
+	<xs:element name="imagen" type="xs:anyURI"/>
+	<xs:element name="ano_titulacion" type="xs:gYear"/>
+	<xs:element name="uri" type="xs:anyURI"/>
+	<!-- definición de atributos -->
+	<xs:attribute name="idPersona" type="xs:positiveInteger"/>
+	<!-- definición de elementos simples usados para restringir valores -->
+	<xs:simpleType name="tipoComision">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Especial"/>
+			<xs:enumeration value="Investigadora"/>
+			<xs:enumeration value="Mixta"/>
+			<xs:enumeration value="Permanente"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- definición de elementos complejos -->
+	<xs:element name="nacimiento">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ciudad"/>
+				<xs:element ref="pais"/>
+				<xs:element ref="fecha"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="muerte">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ciudad"/>
+				<xs:element ref="pais"/>
+				<xs:element ref="fecha"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="carrera">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="titulo"/>
+				<xs:element ref="institucion"/>
+				<xs:element ref="fecha_titulacion" minOccurs="0"/>
+				<xs:element ref="ano_titulacion" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="grado">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="nombre"/>
+				<xs:element ref="institucion"/>
+				<xs:element ref="fecha_titulacion" minOccurs="0"/>
+				<xs:element ref="ano_titulacion" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="pariente">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="relacion"/>
+				<xs:element ref="nombre"/>
+				<xs:element ref="nombre_relacion"/>
+				<xs:element ref="activa" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="cargo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="nombre"/>
+				<xs:element ref="institucion"/>
+				<xs:element ref="fecha_inicio"/>
+				<xs:element ref="fecha_fin" minOccurs="0"/>
+				<xs:element ref="periodo"/>
+				<xs:element ref="representacion"/>
+				<xs:element ref="partido_politico"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="comision">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="nombre"/>
+				<xs:element ref="tipo_comision"/>
+				<xs:element ref="institucion"/>
+				<xs:element ref="rol"/>
+				<xs:element ref="periodo"/>
+				<xs:element ref="fecha_inicio"/>
+				<xs:element ref="fecha_fin"/>
+				<xs:element ref="uri" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<!-- definición de elementos complejos basados en elementos complejos anteriores -->
+	<xs:element name="identificacion">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="nombre"/>
+				<xs:element ref="nombres"/>
+				<xs:element ref="apellido_paterno"/>
+				<xs:element ref="apellido_materno" minOccurs="0"/>
+				<xs:element ref="genero" minOccurs="0"/>
+				<xs:element ref="nacimiento"/>
+				<xs:element ref="muerte" minOccurs="0"/>
+				<xs:element ref="partido_politico" minOccurs="0"/>
+				<xs:element ref="imagen" minOccurs="0"/>
+				<xs:element ref="uri" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="pregrado">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="carrera" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="postgrado">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="grado" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="estudios">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="pregrado" minOccurs="0"/>
+				<xs:element ref="postgrado" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="familia">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="pariente" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="cargos">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="cargo" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="comisiones">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="comision" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="persona">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="identificacion"/>
+				<xs:element ref="estudios" minOccurs="0"/>
+				<xs:element ref="familia" minOccurs="0"/>
+				<xs:element ref="cargos"/>
+				<xs:element ref="comisiones" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute ref="idPersona" use="required"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

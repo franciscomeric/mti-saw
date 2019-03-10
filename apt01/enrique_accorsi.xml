@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="parlamentario.xslt"?>
+<persona idPersona="2200" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="parlamentario.xsd">
+	<identificacion>
+		<nombre>Enrique Luis Accorsi Opazo</nombre>
+		<nombres>Enrique Luis</nombres>
+		<apellido_paterno>Accorsi</apellido_paterno>
+		<apellido_materno>Opazo</apellido_materno>
+		<genero>masculino</genero>
+		<nacimiento>
+			<ciudad>Santiago</ciudad>
+			<pais>Chile</pais>
+			<fecha>1948-08-17</fecha>
+		</nacimiento>
+		<partido_politico>Partido Por la Democracia</partido_politico>
+		<imagen>http://biografias.bcn.cl/images/a/a4/Enrique_Accorsi_Opazo.jpg</imagen>
+		<uri>http://datos.bcn.cl/recurso/persona/2200</uri>
+	</identificacion>
+	<estudios><pregrado>
+		<carrera>
+			<titulo>Médico Cirujano</titulo>
+			<institucion>Universidad Católica de Chile</institucion>
+		</carrera>
+	</pregrado><postgrado>
+		<grado>
+			<nombre>Especialización Cirugía Pediátrica</nombre>
+			<institucion>Universidad de Chile</institucion>
+		</grado>
+		<grado>
+			<nombre>Especialización Cirugía Ortopédica</nombre>
+			<institucion>Universidad de Chile</institucion>
+		</grado>
+		<grado>
+			<nombre>Cirugía Neonatal</nombre>
+			<institucion>Hospital Valle Hebrón de Barcelona, España</institucion>
+			<ano_titulacion>1981</ano_titulacion>
+		</grado>
+	</postgrado></estudios>
+	<cargos>
+		<cargo>
+			<nombre>Diputado</nombre>
+			<institucion>Cámara</institucion>
+			<fecha_inicio>2010-03-11</fecha_inicio>
+			<fecha_fin>2014-03-10</fecha_fin>
+			<periodo>2010-2014</periodo>
+			<representacion>Distrito Nº 24 de Región Metropolitana</representacion>
+			<partido_politico>Partido Por la Democracia</partido_politico>
+		</cargo>
+		<cargo>
+			<nombre>Diputado</nombre>
+			<institucion>Cámara</institucion>
+			<fecha_inicio>2006-03-11</fecha_inicio>
+			<fecha_fin>2010-03-10</fecha_fin>
+			<periodo>2006-2010</periodo>
+			<representacion>Distrito Nº 24 de Región Metropolitana</representacion>
+			<partido_politico>Partido Por la Democracia</partido_politico>
+		</cargo>
+		<cargo>
+			<nombre>Diputado</nombre>
+			<institucion>Cámara</institucion>
+			<fecha_inicio>2002-03-11</fecha_inicio>
+			<fecha_fin>2006-03-10</fecha_fin>
+			<periodo>2002-2006</periodo>
+			<representacion>Distrito Nº 24 de Región Metropolitana</representacion>
+			<partido_politico>Partido Por la Democracia</partido_politico>
+		</cargo>
+	</cargos>
+	<comisiones>
+		<comision>
+			<nombre>Salud</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2010-2014</periodo>
+			<fecha_inicio>2010-03-11</fecha_inicio>
+			<fecha_fin>2014-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=411]]></uri>
+		</comision>
+		<comision>
+			<nombre>Recursos Naturales y Superación de Pobreza, Planificación y Desarrollo Social</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2010-2014</periodo>
+			<fecha_inicio>2010-03-11</fecha_inicio>
+			<fecha_fin>2014-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=405]]></uri>
+		</comision>
+		<comision>
+			<nombre>Deportes</nombre>
+			<tipo_comision>Especial</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2010-2014</periodo>
+			<fecha_inicio>2010-03-11</fecha_inicio>
+			<fecha_fin>2014-03-10</fecha_fin>
+		</comision>
+		<comision>
+			<nombre>Recursos Naturales, Bienes Nacionales y Medio Ambiente</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2006-2010</periodo>
+			<fecha_inicio>2006-03-11</fecha_inicio>
+			<fecha_fin>2010-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=405]]></uri>
+		</comision>
+		<comision>
+			<nombre>Derechos Humanos, Nacionalidad y Ciudadanía</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2006-2010</periodo>
+			<fecha_inicio>2006-03-11</fecha_inicio>
+			<fecha_fin>2010-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=404]]></uri>
+		</comision>
+		<comision>
+			<nombre>Superación de la Pobreza, Planificación y Desarrollo Social</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2006-2010</periodo>
+			<fecha_inicio>2006-03-11</fecha_inicio>
+			<fecha_fin>2010-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=553]]></uri>
+		</comision>
+		<comision>
+			<nombre>Relaciones Exteriores, Asuntos Interparlamentarios e Integración Latinoamericana</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2006-2010</periodo>
+			<fecha_inicio>2006-03-11</fecha_inicio>
+			<fecha_fin>2010-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=406]]></uri>
+		</comision>
+		<comision>
+			<nombre>Conducta Parlamentaria</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2006-2010</periodo>
+			<fecha_inicio>2006-03-11</fecha_inicio>
+			<fecha_fin>2010-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=544]]></uri>
+		</comision>
+		<comision>
+			<nombre>Discapacitados</nombre>
+			<tipo_comision>Especial</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2006-2010</periodo>
+			<fecha_inicio>2006-03-11</fecha_inicio>
+			<fecha_fin>2010-03-10</fecha_fin>
+		</comision>
+		<comision>
+			<nombre>Deportes</nombre>
+			<tipo_comision>Especial</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2006-2010</periodo>
+			<fecha_inicio>2006-03-11</fecha_inicio>
+			<fecha_fin>2010-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=789]]></uri>
+		</comision>
+		<comision>
+			<nombre>Estudio del Régimen Político Chileno</nombre>
+			<tipo_comision>Especial</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2006-2010</periodo>
+			<fecha_inicio>2006-03-11</fecha_inicio>
+			<fecha_fin>2010-03-10</fecha_fin>
+		</comision>
+		<comision>
+			<nombre>Contaminación por Plomo en Arica</nombre>
+			<tipo_comision>Investigadora</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2006-2010</periodo>
+			<fecha_inicio>2006-03-11</fecha_inicio>
+			<fecha_fin>2010-03-10</fecha_fin>
+		</comision>
+		<comision>
+			<nombre>Salud</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2002-2006</periodo>
+			<fecha_inicio>2002-03-11</fecha_inicio>
+			<fecha_fin>2006-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=411]]></uri>
+		</comision>
+		<comision>
+			<nombre>Derechos Humanos, Nacionalidad y Ciudadanía</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2002-2006</periodo>
+			<fecha_inicio>2002-03-11</fecha_inicio>
+			<fecha_fin>2006-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=404]]></uri>
+		</comision>
+		<comision>
+			<nombre>Establece Beneficios para los Discapacitados</nombre>
+			<tipo_comision>Especial</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2002-2006</periodo>
+			<fecha_inicio>2002-03-11</fecha_inicio>
+			<fecha_fin>2006-03-10</fecha_fin>
+		</comision>
+		<comision>
+			<nombre>Contaminación por Plomo en Arica</nombre>
+			<tipo_comision>Investigadora</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2002-2006</periodo>
+			<fecha_inicio>2002-03-11</fecha_inicio>
+			<fecha_fin>2006-03-10</fecha_fin>
+		</comision>
+	</comisiones>
+</persona>

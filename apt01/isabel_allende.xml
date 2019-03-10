@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<politico>
+    <nombre>Isabel</nombre>
+    <apellido>Allende</apellido>
+    <partido>PS</partido>
+    <fechaNacimiento>
+        <dia>18</dia>
+        <mes>enero</mes>
+        <annio>1945</annio>
+    </fechaNacimiento>
+    <regionRepresenta>Valparaí­so</regionRepresenta>
+</politico>

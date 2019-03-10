@@ -1,0 +1,236 @@
+{
+   "persona": {
+      "identificacion": {
+         "nombre": "Enrique Luis Accorsi Opazo",
+         "nombres": "Enrique Luis",
+         "apellido_paterno": "Accorsi",
+         "apellido_materno": "Opazo",
+         "genero": "masculino",
+         "nacimiento": {
+            "ciudad": "Santiago",
+            "pais": "Chile",
+            "fecha": "1948-08-17"
+         },
+         "partido_politico": "Partido Por la Democracia",
+         "imagen": "http://biografias.bcn.cl/images/a/a4/Enrique_Accorsi_Opazo.jpg",
+         "uri": "http://datos.bcn.cl/recurso/persona/2200"
+      },
+      "estudios": {
+         "pregrado": {
+            "carrera": [
+               {
+                  "titulo": "Médico Cirujano",
+                  "institucion": "Universidad Católica de Chile"
+               }
+            ]
+         },
+         "postgrado": {
+            "grado": [
+               {
+                  "nombre": "Especialización Cirugía Pediátrica",
+                  "institucion": "Universidad de Chile"
+               },
+               {
+                  "nombre": "Especialización Cirugía Ortopédica",
+                  "institucion": "Universidad de Chile"
+               },
+               {
+                  "nombre": "Cirugía Neonatal",
+                  "institucion": "Hospital Valle Hebrón de Barcelona, España",
+                  "ano_titulacion": "1981"
+               }
+            ]
+         }
+      },
+      "cargos": {
+         "cargo": [
+            {
+               "nombre": "Diputado",
+               "institucion": "Cámara",
+               "fecha_inicio": "2010-03-11",
+               "fecha_fin": "2014-03-10",
+               "periodo": "2010- 2014",
+               "representacion": "Distrito Nº 24 de Región Metropolitana",
+               "partido_politico": "Partido Por la Democracia"
+            },
+            {
+               "nombre": "Diputado",
+               "institucion": "Cámara",
+               "fecha_inicio": "2006-03-11",
+               "fecha_fin": "2010-03-10",
+               "periodo": "2006-2010",
+               "representacion": "Distrito Nº 24 de Región Metropolitana",
+               "partido_politico": "Partido Por la Democracia"
+            },
+            {
+               "nombre": "Diputado",
+               "institucion": "Cámara",
+               "fecha_inicio": "2002-03-11",
+               "fecha_fin": "2006-03-10",
+               "periodo": "2002-2006",
+               "representacion": "Distrito Nº 24 de Región Metropolitana",
+               "partido_politico": "Partido Por la Democracia"
+            }
+         ]
+      },
+      "comisiones": {
+         "comision": [
+            {
+               "nombre": "Salud",
+               "tipo_comision": "Permanente",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "2010-2014",
+               "fecha_inicio": "2010-03-11",
+               "fecha_fin": "2014-03-10",
+               "uri": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=411"
+            },
+            {
+               "nombre": "Recursos Naturales y Superación de Pobreza, Planificación y Desarrollo Social",
+               "tipo_comision": "Permanente",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "2010-2014",
+               "fecha_inicio": "2010-03-11",
+               "fecha_fin": "2014-03-10",
+               "uri": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=405"
+            },
+            {
+               "nombre": "Deportes",
+               "tipo_comision": "Especial",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "2010-2014",
+               "fecha_inicio": "2010-03-11",
+               "fecha_fin": "2014-03-10"
+            },
+            {
+               "nombre": "Recursos Naturales, Bienes Nacionales y Medio Ambiente",
+               "tipo_comision": "Permanente",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "2006-2010",
+               "fecha_inicio": "2006-03-11",
+               "fecha_fin": "2010-03-10",
+               "uri": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=405"
+            },
+            {
+               "nombre": "Derechos Humanos, Nacionalidad y Ciudadanía",
+               "tipo_comision": "Permanente",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "2006-2010",
+               "fecha_inicio": "2006-03-11",
+               "fecha_fin": "2010-03-10",
+               "uri": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=404"
+            },
+            {
+               "nombre": "Superación de la Pobreza, Planificación y Desarrollo Social",
+               "tipo_comision": "Permanente",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "2006-2010",
+               "fecha_inicio": "2006-03-11",
+               "fecha_fin": "2010-03-10",
+               "uri": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=553"
+            },
+            {
+               "nombre": "Relaciones Exteriores, Asuntos Interparlamentarios e Integración Latinoamericana",
+               "tipo_comision": "Permanente",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "2006-2010",
+               "fecha_inicio": "2006-03-11",
+               "fecha_fin": "2010-03-10",
+               "uri": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=406"
+            },
+            {
+               "nombre": "Conducta Parlamentaria",
+               "tipo_comision": "Permanente",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "2006-2010",
+               "fecha_inicio": "2006-03-11",
+               "fecha_fin": "2010-03-10",
+               "uri": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=544"
+            },
+            {
+               "nombre": "Discapacitados",
+               "tipo_comision": "Especial",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "2006-2010",
+               "fecha_inicio": "2006-03-11",
+               "fecha_fin": "2010-03-10"
+            },
+            {
+               "nombre": "Deportes",
+               "tipo_comision": "Especial",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "2006-2010",
+               "fecha_inicio": "2006-03-11",
+               "fecha_fin": "2010-03-10",
+               "uri": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=789"
+            },
+            {
+               "nombre": "Estudio del Régimen Político Chileno",
+               "tipo_comision": "Especial",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "2006-2010",
+               "fecha_inicio": "2006-03-11",
+               "fecha_fin": "2010-03-10"
+            },
+            {
+               "nombre": "Contaminación por Plomo en Arica",
+               "tipo_comision": "Investigadora",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "2006-2010",
+               "fecha_inicio": "2006-03-11",
+               "fecha_fin": "2010-03-10"
+            },
+            {
+               "nombre": "Salud",
+               "tipo_comision": "Permanente",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "2002-2006",
+               "fecha_inicio": "2002-03-11",
+               "fecha_fin": "2006-03-10",
+               "uri": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=411"
+            },
+            {
+               "nombre": "Derechos Humanos, Nacionalidad y Ciudadanía",
+               "tipo_comision": "Permanente",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "2002-2006",
+               "fecha_inicio": "2002-03-11",
+               "fecha_fin": "2006-03-10",
+               "uri": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=404"
+            },
+            {
+               "nombre": "Establece Beneficios para los Discapacitados",
+               "tipo_comision": "Especial",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "2002-2006",
+               "fecha_inicio": "2002-03-11",
+               "fecha_fin": "2006-03-10"
+            },
+            {
+               "nombre": "Contaminación por Plomo en Arica",
+               "tipo_comision": "Investigadora",
+               "institucion": "Cámara",
+               "rol": "miembro",
+               "periodo": "2002-2006",
+               "fecha_inicio": "2002-03-11",
+               "fecha_fin": "2006-03-10"
+            }
+         ]
+      },
+      "idPersona": "2200"
+   }
+}

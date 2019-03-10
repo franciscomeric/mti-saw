@@ -1,0 +1,449 @@
+{
+  "@context": {
+    "bcnbio": "http://datos.bcn.cl/ontologies/bcn-biographies#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/14",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2010-2014",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2014-03-10"
+      },
+      "schema:name": "Recursos Naturales, Bienes Nacionales y Medio Ambiente",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2010-03-11"
+      },
+      "schema:url": {
+        "@id": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=405"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/15",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2010-2014",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Especial",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2014-03-10"
+      },
+      "schema:name": "Deportes",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2010-03-11"
+      },
+      "schema:url": {
+        "@id": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=789"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/16",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2010-2014",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2014-03-10"
+      },
+      "schema:name": "Salud",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2010-03-11"
+      },
+      "schema:url": {
+        "@id": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=411"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/10",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2006-2010",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Especial",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2010-03-10"
+      },
+      "schema:name": "Estudio del Régimen Político Chileno",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-11"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/11",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2006-2010",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Especial",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2010-03-10"
+      },
+      "schema:name": "Beneficios para los Discapacitados",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-11"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/12",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2006-2010",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Investigadora",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2010-03-10"
+      },
+      "schema:name": "Contaminación por Plomo en Arica",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-11"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/13",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2006-2010",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2010-03-10"
+      },
+      "schema:name": "Recursos Naturales, Bienes Nacionales y Medio Ambiente",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-11"
+      },
+      "schema:url": {
+        "@id": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=405"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/2200/cargo/1",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2002-2006",
+      "bcnbio:ofNamedPoliticalParty": "Partido por la Democracia",
+      "bcnbio:representing": "Distrito Nº 24 de Región Metropolitana",
+      "schema:Organization": "Cámara",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-10"
+      },
+      "schema:roleName": "Diputado",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2002-03-11"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/2200",
+      "@type": [
+        "schema:Person",
+        "foaf:Person"
+      ],
+      "bcnbio:PoliticalParty": "Partido por la Democracia",
+      "bcnbio:surnameOfFather": "Accorsi",
+      "bcnbio:surnameOfMather": "Opazo",
+      "foaf:depiction": {
+        "@id": "http://biografias.bcn.cl/images/a/a4/Enrique_Accorsi_Opazo.jpg"
+      },
+      "foaf:givenName": "Enrique",
+      "foaf:name": "Enrique Accorsi Opazo",
+      "schema:OrganizationRole": [
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/12"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/2200/cargo/3"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/9"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/10"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/14"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/15"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/8"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/2200/cargo/2"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/2200/cargo/1"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/3"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/7"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/2"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/16"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/1"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/5"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/11"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/13"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/4"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/6"
+        }
+      ],
+      "schema:birthDate": {
+        "@type": "xsd:date",
+        "@value": "1948-08-17"
+      },
+      "schema:birthPlace": "Santiago, Chile",
+      "schema:gender": "masculino",
+      "schema:hasOccupation": "Médico"
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/1",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2002-2006",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-10"
+      },
+      "schema:name": "Salud",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2002-03-11"
+      },
+      "schema:url": {
+        "@id": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=411"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/8",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2006-2010",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Especial",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2010-03-10"
+      },
+      "schema:name": "Deportes",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-11"
+      },
+      "schema:url": {
+        "@id": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=789"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/9",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2006-2010",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2010-03-10"
+      },
+      "schema:name": "Derechos Humanos, Nacionalidad y Ciudadanía",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-11"
+      },
+      "schema:url": {
+        "@id": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=404"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/6",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2006-2010",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2010-03-10"
+      },
+      "schema:name": "Superación de la Pobreza, Planificación y Desarrollo Social",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-11"
+      },
+      "schema:url": {
+        "@id": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=553"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/7",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2006-2010",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2010-03-10"
+      },
+      "schema:name": "Conducta Parlamentaria",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-11"
+      },
+      "schema:url": {
+        "@id": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=544"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/4",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2002-2006",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Especial",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-10"
+      },
+      "schema:name": "Beneficios para los Discapacitados",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2002-03-11"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/5",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2006-2010",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2010-03-10"
+      },
+      "schema:name": "Relaciones Exteriores, Asuntos Interparlamentarios e Integración Latinoamericana",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-11"
+      },
+      "schema:url": {
+        "@id": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=406"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/2",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2002-2006",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Investigadora",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-10"
+      },
+      "schema:name": "Contaminación por Plomo en Arica",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2002-03-11"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/2200/cargoComision/3",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2002-2006",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-10"
+      },
+      "schema:name": "Derechos Humanos, Nacionalidad y Ciudadanía",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2002-03-11"
+      },
+      "schema:url": {
+        "@id": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=404"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/2200/cargo/3",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2010-2014",
+      "bcnbio:ofNamedPoliticalParty": "Partido por la Democracia",
+      "bcnbio:representing": "Distrito Nº 24 de Región Metropolitana",
+      "schema:Organization": "Cámara",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2014-03-10"
+      },
+      "schema:roleName": "Diputado",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2010-03-11"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/2200/cargo/2",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2006-2010",
+      "bcnbio:ofNamedPoliticalParty": "Partido por la Democracia",
+      "bcnbio:representing": "Distrito Nº 24 de Región Metropolitana",
+      "schema:Organization": "Cámara",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2010-03-10"
+      },
+      "schema:roleName": "Diputado",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-11"
+      }
+    }
+  ]
+}

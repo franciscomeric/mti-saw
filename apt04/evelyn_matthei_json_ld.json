@@ -1,0 +1,625 @@
+{
+  "@context": {
+    "bcnbio": "http://datos.bcn.cl/ontologies/bcn-biographies#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53",
+      "@type": [
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "bcnbio:PoliticalParty": "Partido Unión Demócrata Independiente",
+      "bcnbio:surnameOfFather": "Matthei",
+      "bcnbio:surnameOfMather": "Fornet",
+      "foaf:depiction": {
+        "@id": "http://biografias.bcn.cl/images/b/b0/Evelyn_Matthei_Fornet.jpg"
+      },
+      "foaf:givenName": "Evelyn",
+      "foaf:name": "Evelyn Matthei Fornet",
+      "schema:OrganizationRole": [
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/20"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/19"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/5"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargo/4"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/17"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/3"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/2"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargo/3"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/14"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/16"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/1"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/4"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/13"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargo/2"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargo/1"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/8"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/11"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/15"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/12"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/21"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/18"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/22"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/6"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/9"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/7"
+        },
+        {
+          "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/10"
+        }
+      ],
+      "schema:birthDate": {
+        "@type": "xsd:date",
+        "@value": "1953-11-11"
+      },
+      "schema:birthPlace": "Santiago Chile, Chile",
+      "schema:children": [
+        "Jorge",
+        "Roberto",
+        "Antonia"
+      ],
+      "schema:gender": "femenino",
+      "schema:hasOccupation": "Licenciada en Ciencias Económicas",
+      "schema:parent": "Fernando, Matthei Aubel"
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/9",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "1998-2006",
+      "schema:Organization": "Senado",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-10"
+      },
+      "schema:name": "Economía",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "1998-03-11"
+      },
+      "schema:url": {
+        "@id": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=187&tipo_comision=10"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/16",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2006-2014",
+      "schema:Organization": "Senado",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2011-01-30"
+      },
+      "schema:name": "Salud",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-11"
+      },
+      "schema:url": {
+        "@id": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=195&tipo_comision=10"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/17",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2006-2014",
+      "schema:Organization": "Senado",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2011-01-30"
+      },
+      "schema:name": "Revisora de Cuentas",
+      "schema:roleName": "presidente",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-11"
+      },
+      "schema:url": {
+        "@id": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=202&tipo_comision=10"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/14",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2006-2014",
+      "schema:Organization": "Senado",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2011-01-30"
+      },
+      "schema:name": "Hacienda",
+      "schema:roleName": "presidente",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-11"
+      },
+      "schema:url": {
+        "@id": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=188&tipo_comision=10"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargo/4",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2006-2011",
+      "bcnbio:ofNamedPoliticalParty": "Partido Unión Demócrata Independiente",
+      "bcnbio:representing": "4ta Circunscripción de Coquimbo",
+      "schema:Organization": "Senado",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2011-01-16"
+      },
+      "schema:roleName": "Senadora",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-11"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/12",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "1998-2006",
+      "schema:Organization": "Senado",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-10"
+      },
+      "schema:name": "Minería y Energía",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "1998-03-11"
+      },
+      "schema:url": {
+        "@id": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=196&tipo_comision=10"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/13",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "1998-2006",
+      "schema:Organization": "Senado",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-10"
+      },
+      "schema:name": "Revisora de Cuentas",
+      "schema:roleName": "presidente",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "1998-03-11"
+      },
+      "schema:url": {
+        "@id": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=202&tipo_comision=10"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargo/1",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "1990-1994",
+      "bcnbio:ofNamedPoliticalParty": "Partido Renovación Nacional",
+      "bcnbio:representing": "Distrito Nº 23 de Región Metropolitana",
+      "schema:Organization": "Cámara",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "1994-03-10"
+      },
+      "schema:roleName": "Diputada",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "1990-03-11"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/11",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "1998-2006",
+      "schema:Organization": "Senado",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-10"
+      },
+      "schema:name": "Hacienda",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "1998-03-11"
+      },
+      "schema:url": {
+        "@id": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=188&tipo_comision=10"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargo/3",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "1998-2006",
+      "bcnbio:ofNamedPoliticalParty": "Independiente",
+      "bcnbio:representing": "4ta Circunscripción de Coquimbo",
+      "schema:Organization": "Senado",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-10"
+      },
+      "schema:roleName": "Senadora",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "1998-03-11"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/18",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2006-2014",
+      "schema:Organization": "Senado",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2011-01-30"
+      },
+      "schema:name": "Trabajo y Previsión Social",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-11"
+      },
+      "schema:url": {
+        "@id": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=194&tipo_comision=10"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargo/2",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "1994-1998",
+      "bcnbio:ofNamedPoliticalParty": "Independiente",
+      "bcnbio:representing": "Distrito Nº 15 de Región Valparaíso",
+      "schema:Organization": "Cámara",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "1998-03-10"
+      },
+      "schema:roleName": "Diputada",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "1994-03-11"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/10",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "1998-2006",
+      "schema:Organization": "Senado",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-10"
+      },
+      "schema:name": "Salud",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "1998-03-11"
+      },
+      "schema:url": {
+        "@id": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=195&tipo_comision=10"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/4",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "1994-1998",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "1998-03-10"
+      },
+      "schema:name": "Hacienda",
+      "schema:roleName": "reemplazante",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "1994-03-11"
+      },
+      "schema:url": {
+        "@id": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=407"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/5",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "1994-1998",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "1998-03-10"
+      },
+      "schema:name": "Relaciones Exteriores, Asuntos Interparlamentarios e Integración Latinoamericana",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "1994-03-11"
+      },
+      "schema:url": {
+        "@id": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=406"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/6",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "1994-1998",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "1998-03-10"
+      },
+      "schema:name": "Ciencias y Tecnología",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "1994-03-11"
+      },
+      "schema:url": {
+        "@id": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=403"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/7",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "1994-1998",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "1998-03-10"
+      },
+      "schema:name": "Economía, Fomento y Desarrollo",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "1994-03-11"
+      },
+      "schema:url": {
+        "@id": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=410"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/1",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "1990-1994",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Especial",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "1994-03-10"
+      },
+      "schema:name": "Estudio del Régimen Político Chileno",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "1990-03-11"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/2",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "1990-1994",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "1994-03-10"
+      },
+      "schema:name": "Trabajo y Seguridad Social",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "1990-03-11"
+      },
+      "schema:url": {
+        "@id": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=408"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/3",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "1990-1994",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "1994-03-10"
+      },
+      "schema:name": "Hacienda",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "1990-03-11"
+      },
+      "schema:url": {
+        "@id": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=407"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/8",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "1994-1998",
+      "schema:Organization": "Cámara",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "1998-03-10"
+      },
+      "schema:name": "Trabajo y Seguridad Social",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "1994-03-11"
+      },
+      "schema:url": {
+        "@id": "https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=408"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/15",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2006-2014",
+      "schema:Organization": "Senado",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2011-01-30"
+      },
+      "schema:name": "Hacienda",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-11"
+      },
+      "schema:url": {
+        "@id": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=188&tipo_comision=10"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/22",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2006-2014",
+      "schema:Organization": "Senado",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2011-01-30"
+      },
+      "schema:name": "Economía",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-11"
+      },
+      "schema:url": {
+        "@id": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=187&tipo_comision=10"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/21",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2006-2014",
+      "schema:Organization": "Senado",
+      "schema:additionalType": "Comisión Permanente",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2011-01-30"
+      },
+      "schema:name": "Transportes y Telecomunicaciones",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-11"
+      },
+      "schema:url": {
+        "@id": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=198&tipo_comision=10"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/20",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2006-2014",
+      "schema:Organization": "Senado",
+      "schema:additionalType": "Comisión Mixta",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2011-01-30"
+      },
+      "schema:name": "Mixta de Presupuestos",
+      "schema:roleName": "miembro",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-11"
+      },
+      "schema:url": {
+        "@id": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=367&tipo_comision=10"
+      }
+    },
+    {
+      "@id": "http://datos.bcn.cl/recurso/persona/53/cargoComision/19",
+      "@type": "schema:OrganizationRole",
+      "bcnbio:ParliamentaryPeriod": "2006-2014",
+      "schema:Organization": "Senado",
+      "schema:additionalType": "Comisión Mixta",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2011-01-30"
+      },
+      "schema:name": "Mixta de Presupuestos",
+      "schema:roleName": "presidente",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2006-03-11"
+      },
+      "schema:url": {
+        "@id": "http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=367&tipo_comision=10"
+      }
+    }
+  ]
+}

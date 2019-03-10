@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="parlamentario.xslt"?>
+<persona idPersona="3494" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="parlamentario.xsd">
+	<identificacion>
+		<nombre>María Isabel Allende Bussi</nombre>
+		<nombres>María Isabel</nombres>
+		<apellido_paterno>Allende</apellido_paterno>
+		<apellido_materno>Bussi</apellido_materno>
+		<genero>femenino</genero>
+		<nacimiento>
+			<ciudad>Santiago</ciudad>
+			<pais>Chile</pais>
+			<fecha>1945-01-18</fecha>
+		</nacimiento>
+		<partido_politico>Partido Socialista de Chile</partido_politico>
+		<imagen>http://biografias.bcn.cl/images/d/df/Mar%C3%ADa_Isabel_Allende_Bussi.jpg</imagen>
+		<uri>http://datos.bcn.cl/recurso/persona/3494</uri>
+	</identificacion>
+	<estudios>
+		<pregrado>
+			<carrera>
+				<titulo>Socióloga</titulo>
+				<institucion>Universidad de Chile</institucion>
+			</carrera>
+		</pregrado>
+		<postgrado>
+			<grado>
+				<nombre>Master en Sociología</nombre>
+				<institucion>Universidad Nacional Autónoma de México (UNAM)</institucion>
+			</grado>
+			<grado>
+				<nombre>Master en Ciencia Política</nombre>
+				<institucion>Facultad Latinoamericana de Ciencias Sociales (FLACSO), México</institucion>
+			</grado>
+		</postgrado>
+	</estudios>
+	<familia>
+		<pariente>
+			<relacion>hija_de</relacion>
+			<nombre>Salvador Allende Gossens</nombre>
+			<nombre_relacion>padre</nombre_relacion>
+		</pariente>
+		<pariente>
+			<relacion>hija_de</relacion>
+			<nombre>Mercedes Hortensia Bussi Soto</nombre>
+			<nombre_relacion>madre</nombre_relacion>
+		</pariente>
+		<pariente>
+			<relacion>madre_de</relacion>
+			<nombre>Gonzalo Meza Allende</nombre>
+			<nombre_relacion>hijo</nombre_relacion>
+		</pariente>
+		<pariente>
+			<relacion>madre_de</relacion>
+			<nombre>Marcia Tambutti Allende</nombre>
+			<nombre_relacion>hija</nombre_relacion>
+		</pariente>
+		<pariente>
+			<relacion>esposa_de</relacion>
+			<nombre>Sergio Meza</nombre>
+			<nombre_relacion>ex-esposo</nombre_relacion>
+		</pariente>
+		<pariente>
+			<relacion>esposa_de</relacion>
+			<nombre>Luis Romilio Tambutti Retamales</nombre>
+			<nombre_relacion>ex-esposo</nombre_relacion>
+		</pariente>
+	</familia>
+	<cargos>
+		<cargo>
+			<nombre>Senadora</nombre>
+			<institucion>Senado</institucion>
+			<fecha_inicio>2018-03-11</fecha_inicio>
+			<periodo>2018-2026</periodo>
+			<representacion>6ta Circunscripción de Valparaíso</representacion>
+			<partido_politico>Partido Socialista de Chile</partido_politico>
+		</cargo>
+		<cargo>
+			<nombre>Senadora</nombre>
+			<institucion>Senado</institucion>
+			<fecha_inicio>2010-03-11</fecha_inicio>
+			<periodo>2010-2018</periodo>
+			<representacion>3a Circunscripción de Atacama</representacion>
+			<partido_politico>Partido Socialista de Chile</partido_politico>
+		</cargo>
+		<cargo>
+			<nombre>Diputada</nombre>
+			<institucion>Cámara</institucion>
+			<fecha_inicio>2006-03-11</fecha_inicio>
+			<periodo>2006-2010</periodo>
+			<representacion>Distrito Nº 29 de Región Metropolitana</representacion>
+			<partido_politico>Partido Socialista de Chile</partido_politico>
+		</cargo>
+		<cargo>
+			<nombre>Diputada</nombre>
+			<institucion>Cámara</institucion>
+			<fecha_inicio>2002-03-11</fecha_inicio>
+			<periodo>2002-2006</periodo>
+			<representacion>Distrito Nº 29 de Región Metropolitana</representacion>
+			<partido_politico>Partido Socialista de Chile</partido_politico>
+		</cargo>
+		<cargo>
+			<nombre>Diputada</nombre>
+			<institucion>Cámara</institucion>
+			<fecha_inicio>1998-03-11</fecha_inicio>
+			<periodo>1998-2002</periodo>
+			<representacion>Distrito Nº 29 de Región Metropolitana</representacion>
+			<partido_politico>Partido Socialista de Chile</partido_politico>
+		</cargo>
+		<cargo>
+			<nombre>Diputada</nombre>
+			<institucion>Cámara</institucion>
+			<fecha_inicio>1994-03-11</fecha_inicio>
+			<periodo>1994-1998</periodo>
+			<representacion>Distrito Nº 9 de Región de Coquimbo</representacion>
+			<partido_politico>Partido Socialista de Chile</partido_politico>
+		</cargo>
+	</cargos>
+	<comisiones>
+		<comision>
+			<nombre>Especial Encargada de conocer iniciativas y tramitar proyectos de ley relacionados con la mujer y la igualdad de género</nombre>
+			<tipo_comision>Especial</tipo_comision>
+			<institucion>Senado</institucion>
+			<rol>miembro</rol>
+			<periodo>2018-2026</periodo>
+			<fecha_inicio>2018-09-12</fecha_inicio>
+			<fecha_fin>2026-03-10</fecha_fin>
+			<uri><![CDATA[http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=1126&tipo_comision=10]]></uri>
+		</comision>
+		<comision>
+			<nombre>Especial encargada de tramitar proyectos de ley relacionados con los niños, niñas y adolescentes</nombre>
+			<tipo_comision>Especial</tipo_comision>
+			<institucion>Senado</institucion>
+			<rol>miembro</rol>
+			<periodo>2018-2026</periodo>
+			<fecha_inicio>2018-09-12</fecha_inicio>
+			<fecha_fin>2026-03-10</fecha_fin>
+			<uri><![CDATA[http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=1062&tipo_comision=10]]></uri>
+		</comision>
+		<comision>
+			<nombre>Medio Ambiente y Bienes Nacionales</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Senado</institucion>
+			<rol>presidente</rol>
+			<periodo>2018-2026</periodo>
+			<fecha_inicio>2018-03-11</fecha_inicio>
+			<fecha_fin>2026-03-10</fecha_fin>
+			<uri><![CDATA[http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=193&tipo_comision=10]]></uri>
+		</comision>
+		<comision>
+			<nombre>Minería y Energía</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Senado</institucion>
+			<rol>miembro</rol>
+			<periodo>2018-2026</periodo>
+			<fecha_inicio>2018-03-11</fecha_inicio>
+			<fecha_fin>2026-03-10</fecha_fin>
+			<uri><![CDATA[http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=196&tipo_comision=10]]></uri>
+		</comision>
+		<comision>
+			<nombre>Zonas Extremas y Territorios Especiales</nombre>
+			<tipo_comision>Especial</tipo_comision>
+			<institucion>Senado</institucion>
+			<rol>miembro</rol>
+			<periodo>2018-2026</periodo>
+			<fecha_inicio>2018-03-11</fecha_inicio>
+			<fecha_fin>2026-03-10</fecha_fin>
+			<uri><![CDATA[http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=899&tipo_comision=10]]></uri>
+		</comision>
+		<comision>
+			<nombre>Recursos Hídricos, Desertificación y Sequía</nombre>
+			<tipo_comision>Especial</tipo_comision>
+			<institucion>Senado</institucion>
+			<rol>miembro</rol>
+			<periodo>2018-2026</periodo>
+			<fecha_inicio>2018-03-11</fecha_inicio>
+			<fecha_fin>2026-03-10</fecha_fin>
+			<uri><![CDATA[http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=1009&tipo_comision=10]]></uri>
+		</comision>
+		<comision>
+			<nombre>Medio Ambiente y Bienes Nacionales</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Senado</institucion>
+			<rol>miembro</rol>
+			<periodo>2010-2018</periodo>
+			<fecha_inicio>2010-03-11</fecha_inicio>
+			<fecha_fin>2018-03-10</fecha_fin>
+			<uri><![CDATA[http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=193&tipo_comision=10]]></uri>
+		</comision>
+		<comision>
+			<nombre>Minería y Energía</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Senado</institucion>
+			<rol>miembro</rol>
+			<periodo>2010-2018</periodo>
+			<fecha_inicio>2010-03-11</fecha_inicio>
+			<fecha_fin>2018-03-10</fecha_fin>
+			<uri><![CDATA[http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=196&tipo_comision=10]]></uri>
+		</comision>
+		<comision>
+			<nombre>Ética y Transparencia</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Senado</institucion>
+			<rol>miembro</rol>
+			<periodo>2010-2018</periodo>
+			<fecha_inicio>2010-03-11</fecha_inicio>
+			<fecha_fin>2018-03-10</fecha_fin>
+			<uri><![CDATA[http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=718&tipo_comision=10]]></uri>
+		</comision>
+		<comision>
+			<nombre>Régimen Interior</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Senado</institucion>
+			<rol>presidente</rol>
+			<periodo>2010-2018</periodo>
+			<fecha_inicio>2010-03-11</fecha_inicio>
+			<fecha_fin>2018-03-10</fecha_fin>
+			<uri><![CDATA[http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=201&tipo_comision=10]]></uri>
+		</comision>
+		<comision>
+			<nombre>Recursos Hídricos, Desertificación y Sequía</nombre>
+			<tipo_comision>Especial</tipo_comision>
+			<institucion>Senado</institucion>
+			<rol>miembro</rol>
+			<periodo>2010-2018</periodo>
+			<fecha_inicio>2010-03-11</fecha_inicio>
+			<fecha_fin>2018-03-10</fecha_fin>
+			<uri><![CDATA[http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=ficha&id=1009&tipo_comision=10]]></uri>
+		</comision>
+		<comision>
+			<nombre>Relaciones Exteriores, Asuntos Interparlamentarios e Integración Latinoamericana</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2006-2010</periodo>
+			<fecha_inicio>2006-03-11</fecha_inicio>
+			<fecha_fin>2010-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=406]]></uri>
+		</comision>
+		<comision>
+			<nombre>Cultura y de las Artes</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2006-2010</periodo>
+			<fecha_inicio>2006-03-11</fecha_inicio>
+			<fecha_fin>2010-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=496]]></uri>
+		</comision>
+		<comision>
+			<nombre>Minería y Energía</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2006-2010</periodo>
+			<fecha_inicio>2006-03-11</fecha_inicio>
+			<fecha_fin>2010-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=409]]></uri>
+		</comision>
+		<comision>
+			<nombre>Beneficios para los Discapacitados</nombre>
+			<tipo_comision>Especial</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2006-2010</periodo>
+			<fecha_inicio>2006-03-11</fecha_inicio>
+			<fecha_fin>2010-03-10</fecha_fin>
+		</comision>
+		<comision>
+			<nombre>Turismo</nombre>
+			<tipo_comision>Especial</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2006-2010</periodo>
+			<fecha_inicio>2006-03-11</fecha_inicio>
+			<fecha_fin>2010-03-10</fecha_fin>
+		</comision>
+		<comision>
+			<nombre>Relaciones Exteriores, Asuntos Interparlamentarios e Integración Latinoamericana</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2002-2006</periodo>
+			<fecha_inicio>2002-03-11</fecha_inicio>
+			<fecha_fin>2006-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=406]]></uri>
+		</comision>
+		<comision>
+			<nombre>Familia</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2002-2006</periodo>
+			<fecha_inicio>2002-03-11</fecha_inicio>
+			<fecha_fin>2006-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=415]]></uri>
+		</comision>
+		<comision>
+			<nombre>Beneficios para los Discapacitados</nombre>
+			<tipo_comision>Especial</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>2002-2006</periodo>
+			<fecha_inicio>2002-03-11</fecha_inicio>
+			<fecha_fin>2006-03-10</fecha_fin>
+		</comision>
+		<comision>
+			<nombre>Vivienda y Desarrollo Urbano</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>1998-2002</periodo>
+			<fecha_inicio>1998-03-11</fecha_inicio>
+			<fecha_fin>2002-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=416]]></uri>
+		</comision>
+		<comision>
+			<nombre>Familia</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>presidente</rol>
+			<periodo>1998-2002</periodo>
+			<fecha_inicio>1998-03-11</fecha_inicio>
+			<fecha_fin>2002-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=415]]></uri>
+		</comision>
+		<comision>
+			<nombre>Drogas</nombre>
+			<tipo_comision>Especial</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>1998-2002</periodo>
+			<fecha_inicio>1998-03-11</fecha_inicio>
+			<fecha_fin>2002-03-10</fecha_fin>
+		</comision>
+		<comision>
+			<nombre>Recursos Naturales, Bienes Nacionales y Medio Ambiente</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>1994-1998</periodo>
+			<fecha_inicio>1994-03-11</fecha_inicio>
+			<fecha_fin>1998-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=405]]></uri>
+		</comision>
+		<comision>
+			<nombre>Familia</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>1994-1998</periodo>
+			<fecha_inicio>1994-03-11</fecha_inicio>
+			<fecha_fin>1998-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=415]]></uri>
+		</comision>
+		<comision>
+			<nombre>Gobierno Interior, Regionalización, Planificación y Desarrollo Social</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>1994-1998</periodo>
+			<fecha_inicio>1994-03-11</fecha_inicio>
+			<fecha_fin>1998-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=414]]></uri>
+		</comision>
+		<comision>
+			<nombre>Relaciones Exteriores, Asuntos Interparlamentarios e Integración Latinoamericana</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>1994-1998</periodo>
+			<fecha_inicio>1994-03-11</fecha_inicio>
+			<fecha_fin>1998-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=406]]></uri>
+		</comision>
+		<comision>
+			<nombre>Ciencia y Tecnología</nombre>
+			<tipo_comision>Permanente</tipo_comision>
+			<institucion>Cámara</institucion>
+			<rol>miembro</rol>
+			<periodo>1994-1998</periodo>
+			<fecha_inicio>1994-03-11</fecha_inicio>
+			<fecha_fin>1998-03-10</fecha_fin>
+			<uri><![CDATA[https://www.camara.cl/trabajamos/comision_portada.aspx?prmID=403]]></uri>
+		</comision>
+	</comisiones>
+</persona>

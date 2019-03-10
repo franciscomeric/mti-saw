@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:element name="politico">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string"></xs:element>
+        <xs:element name="apellido" type="xs:string"></xs:element>
+        <xs:element name="partido" type="xs:string"></xs:element>
+        <xs:element name="fechaNacimiento">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dia" type="xs:int"></xs:element>
+              <xs:element name="mes" type="xs:string"></xs:element>
+              <xs:element name="annio" type="xs:int"></xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="regionRepresenta" type="xs:string"></xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
