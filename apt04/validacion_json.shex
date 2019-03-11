@@ -10,15 +10,18 @@ PREFIX : <http://weso.es/shapes/>
 start = @<parlamentario>
 
 <parlamentario>:parlamentarioShape {
-   schema:birthDate xsd:date
+   schema:birthDate xsd:date ?;
+   foaf:name xsd:string  {1,1};
+   schema:OrganizationRole @<cargoParlamentario> +;
+   schema:OrganizationRole @<cargoComision> *;
 }
 
-:cargoParlamentarioShape {
-   schema:startDate xsd:date
-   schema:endDate xsd:date
+<cargoParlamentario>:cargoParlamentarioShape {
+   schema:startDate xsd:date +;
+   schema:endDate xsd:date +;
 }
 
-:cargoComisionParlamentarioShape {
-   schema:startDate xsd:date
-   schema:endDate xsd:date
+<cargoComision>:cargoComisionParlamentarioShape {
+   schema:startDate xsd:date +;
+   schema:endDate xsd:date +;
 }
