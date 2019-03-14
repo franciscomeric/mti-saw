@@ -1,0 +1,5 @@
+SELECT ?item ?itemLabel ?date_of_birth WHERE {
+  ?item wdt:P3373 wd:Q451359.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+  OPTIONAL { ?item wdt:P569 ?date_of_birth. }
+}
