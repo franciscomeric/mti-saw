@@ -1,0 +1,7 @@
+SELECT ?Mar_a_Isabel_Allende ?Mar_a_Isabel_AllendeLabel ?date_of_birth WHERE {
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+  
+  
+  ?Mar_a_Isabel_Allende wdt:P40 wd:Q451359.
+  OPTIONAL { ?Mar_a_Isabel_Allende wdt:P569 ?date_of_birth. }
+}
